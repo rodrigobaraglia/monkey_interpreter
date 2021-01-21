@@ -1,7 +1,6 @@
 package parser
 
 import (
-	// 	"rodrigobaraglia/monkeyimpl/ast"
 	"rodrigobaraglia/monkeyimpl/ast"
 	lx "rodrigobaraglia/monkeyimpl/lexer"
 	t "rodrigobaraglia/monkeyimpl/token"
