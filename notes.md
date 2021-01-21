@@ -15,3 +15,10 @@ down lexing and parsing errors. So it would be better to initialize the lexer wi
 and the filename. But since that would add more complexity we’re not here to handle, we’ll
 start small and just use a string and ignore filenames and line numbers."
 (ibid)
+
+(3)
+"we simplified things a lot in readNumber. We only read in
+integers. What about floats? Or numbers in hex notation? Octal notation? We ignore them
+and just say that Monkey doesn’t support this. Of course, the reason for this is again the
+educational aim and limited scope of this book."
+Averiguar cómo implementar, por lo menos, floats.
